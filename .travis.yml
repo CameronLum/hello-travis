@@ -2,3 +2,4 @@ language: java
 dist: trusty 
 # this breaks Travis... 
 # install: ant deps
+script: ant test
