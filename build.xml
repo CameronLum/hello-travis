@@ -40,7 +40,7 @@
 
   <target name="test" depends="compile"
         description="run the tests">
-    <java fork="true" dir="./src" classname="org.junit.platform.console.ConsoleLauncher">
+    <java fork="true" dir="./src" classname="org.junit.platform.console.ConsoleLauncher" failonerror="true">
       <arg value="--scan-class-path"/>
       <classpath>
         <path location="./src"/>
