@@ -1,3 +1,4 @@
 language: java
 dist: trusty 
-install: ant deps
+# this breaks Travis... 
+# install: ant deps
